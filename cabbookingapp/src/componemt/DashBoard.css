@@ -1,0 +1,81 @@
+.side-nav-bar{
+    height: 695px;
+    width: 256px;
+    background: #283342;
+}
+.side-nav-bar .title{
+    display: flex;
+    width: 256px;
+    height: 60px;
+    background: #1D242E;
+    color: #FFFFFF;
+    font-weight: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.LOGO{
+    display: flex;
+    width: 207px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.LOGO .image{
+    width: 42px;
+    height: 42px;
+    background: #888888;
+    border-radius: 4px;
+}
+ .Group1{
+    width: 139px;
+    margin-left: 16px;
+    margin-top: 9px;
+    color: white;
+    align-items:center;
+    justify-content:center;
+}
+
+.menu-dots{
+    width: 2px;
+    height: 16px;
+    font-size: 20px;
+    color: #FFFF;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.BOOKCAB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 30px;
+    width: 256px;
+    height: 46px;
+    color: #FFFF;
+    background: #009099;
+}
+.LOGOUT{
+    width: 256px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 14px
+}
+.footers{
+    margin-top: 320px;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFF;
+}
+.footers p{
+    margin: 10px;
+}
+.BOOKCAB:hover,
+.LOGOUT:hover{
+    border: #1D242E 3px solid;
+    cursor: pointer;
+}

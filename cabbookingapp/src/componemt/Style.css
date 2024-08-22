@@ -1,0 +1,57 @@
+
+::placeholder{
+    color: #ffff;
+}
+.inputWrapper{
+    width: 300px;
+}
+.inputWrapper input, .inputWrapper button{
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+}
+.inputWrapper input{
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #fff;
+}
+.inputWrapper button{
+    margin-top: 43px;
+    color: #2148C0;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: SemiBold;
+    font-style: normal;
+}
+.loginInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.inputWrapper input:focus-visible{
+    outline: 0px !important;
+}
+.inputWrapper .inputInner{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.inputWrapper .inputInner .userIcon{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    margin: 0px 10px;
+}
+input{
+    border: none;
+}
+.forgotPassword{
+   color: #ffff;    
+   font-weight: 500;
+   font-size: 16px;
+   text-align: right;
+}

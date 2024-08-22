@@ -1,0 +1,44 @@
+.containe{
+    display: flex;
+}
+::placeholder{
+    color: #000000;
+    
+}
+
+.main-content {
+    
+    background-color: #F7FAFD;
+}
+.navbar{
+    background: #F7FAFD;
+    width: 1280px;
+    height: 60px;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    display: inline;
+}
+.navbar h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #333;
+}
+.navbar .time{
+    width: 160px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.image img{
+    max-width: 100%;
+    max-height: 630px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.image {
+    display: flex;
+    gap: 50px;
+}
